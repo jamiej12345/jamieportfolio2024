@@ -1,4 +1,5 @@
 import localFont from 'next/font/local'
+import Image from 'next/image'
 import Link from 'next/link'
 
 const geistSans = localFont({
@@ -19,7 +20,7 @@ export default function Home() {
     >
       <main className='flex flex-col gap-8 row-start-2 items-center sm:items-start'>
         <h1 className='bg-gradient-to-r from-slate-600 to-gray-200 bg-clip-text text-transparent font-bold text-6xl'>
-          Hi, I'm Jamie
+          Hi, I&apos;m Jamie
         </h1>
         <h3 className='text-xl text-slate-300'>
           A senior web developer with over 2 years experience in the fintech
@@ -41,11 +42,11 @@ export default function Home() {
               {/* <!-- Icon --> */}
               <div className='relative group-last:after:hidden after:absolute after:top-8 after:bottom-2 after:start-3 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-neutral-700'>
                 <div className='relative z-10 size-6 flex justify-center items-center'>
-                  <img
-                    src='https://investcloud.com/wp-content/uploads/2024/09/IC-abbreviated-RGB.png'
-                    alt=''
-                    width='22'
-                    height='19'
+                  <Image
+                    // src={`https://investcloud.com/wp-content/uploads/2024/09/IC-abbreviated-RGB.png`}
+                    alt='this is my image'
+                    width={22}
+                    height={19}
                   />
                   {/* <svg
                     className='shrink-0 size-6 text-gray-600 dark:text-neutral-400'
