@@ -87,8 +87,8 @@ export default function Home() {
                     <span className='font-bold'>Client-Centric Solutions:</span>{' '}
                     Developed and maintained web applications for prestigious
                     clients, including Rathbones, RBC, HSBC, UBS, and Nomura,
-                    ensuring solutions meet each client’s security, scalability,
-                    and regulatory compliance requirements.
+                    ensuring solutions meet each client&apos;s security,
+                    scalability, and regulatory compliance requirements.
                   </li>
                   <li className='ps-1 text-sm text-gray-600 dark:text-neutral-400'>
                     <span className='font-bold'>
@@ -104,7 +104,7 @@ export default function Home() {
                     </span>{' '}
                     Collaborated closely with the product development team to
                     design and launch new features and improvements for the
-                    company’s proprietary fintech products, enhancing
+                    company&apos;s proprietary fintech products, enhancing
                     functionality, performance, and user experience.
                   </li>
                   <li className='ps-1 text-sm text-gray-600 dark:text-neutral-400'>
@@ -158,7 +158,7 @@ export default function Home() {
 
                 <ul className='list-disc ms-6 mt-3 space-y-1.5'>
                   <li className='ps-1 text-sm text-gray-600 dark:text-neutral-400'>
-                    Enhanced and maintained Rathbones’ asset management web
+                    Enhanced and maintained Rathbones asset management web
                     platform for improved user experience and compliance with
                     latest financial regulations.
                   </li>
