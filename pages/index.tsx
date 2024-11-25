@@ -1,5 +1,4 @@
 import localFont from 'next/font/local'
-import Link from 'next/link'
 
 const geistSans = localFont({
   src: './fonts/GeistVF.woff',
