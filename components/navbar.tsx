@@ -4,15 +4,15 @@ import myImage from '../images/infoicon-removebg-preview.png'
 
 const Navbar = () => {
   return (
-    <nav className='w-9/12 flex justify-between m-auto mt-6'>
-      <div>
+    <nav className='w-9/12 flex justify-between m-auto pt-6 z-50'>
+      <div className='z-50'>
         <Link href='/'>
           <Image src={myImage} alt='this is my image' width={35} height={35} />
         </Link>
       </div>
-      <ul className='flex space-x-4'>
+      <ul className='flex space-x-4 z-50'>
         <li>
-          <Link href='/about' className='mb-4 mr-4'>
+          <Link href='/about' className='mr-4'>
             about
           </Link>
         </li>
